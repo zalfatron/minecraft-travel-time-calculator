@@ -23,7 +23,7 @@ dist_sqd = dist_x_sqd + dist_z_sqd
 distance = math.sqrt(dist_sqd)
 
 # Calculats how long it will take to travel the specified distance
-output = distance / 20160
+output = str(distance / 20160)
 
 # Prints the estimated travel time
 print("You're journey will take " + output + "hours")
