@@ -1,4 +1,3 @@
-# ERROR on lines 2,3,5,6: bad operand type for abs(): 'str'
 current_x_cord = abs(int(input("Current X coordinate: ")))
 current_z_cord = abs(int(input("Current Z coordinate: ")))
 
