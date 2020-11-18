@@ -26,7 +26,7 @@ distance = math.sqrt(dist_sqd)
 output = distance / 20160
 
 # Prints the estimated travel time
-print(output)
+print("You're journey will take " + output + "hours")
 
 # Blocks Per Hour: 20,160
 # distance/20,160 = 6
