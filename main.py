@@ -1,4 +1,4 @@
-import math
+import math as m
 
 # Find the coordinates that the player is currently at
 current_x = abs(int(input("Current X coordinate: ")))
@@ -8,7 +8,7 @@ current_z = abs(int(input("Current Z coordinate: ")))
 dest_x = abs(int(input("Destination X coordinate: ")))
 dest_z = abs(int(input("Destination Z coordinate: ")))
 
-distance = math.sqrt((dest_x - current_x) ** 2 + (dest_z - current_z))
+distance = m.sqrt((dest_x - current_x) ** 2 + (dest_z - current_z))
 
 # Calculats how long it will take to travel the specified distance
 output = str(distance / 20160)
