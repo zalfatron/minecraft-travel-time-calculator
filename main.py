@@ -17,4 +17,4 @@ output = str(distance / 20160)
 print("You're journey will take " + output + " hours.")
 
 # Blocks Per Hour: 20,160
-# distance/20,160 = 6
+# distance/20,160 = time
