@@ -15,7 +15,7 @@ distance = m.sqrt((dest_x - current_x) ** 2 + (dest_z - current_z))
 output = str(distance / 20160)
 
 # Prints the estimated travel time
-print("You're journey will take " + output + " hours.")
+print("Your journey will take " + output + " hours.")
 
 # Blocks Per Hour: 20,160
 # distance/20,160 = output
