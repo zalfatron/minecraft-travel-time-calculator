@@ -9,7 +9,7 @@ dest_x = int(input("Destination X coordinate: "))
 dest_z = int(input("Destination Z coordinate: "))
 
 # Calculate the distance
-distance = m.sqrt((dest_x - current_x) ** 2 + (dest_z - current_z))
+distance = m.sqrt((dest_x - current_x) ** 2 + (dest_z - current_z)**2)
 
 # Calculats how long it will take to travel the specified distance
 output = str(distance / 20160)
